@@ -1,0 +1,32 @@
+# 快捷键
+
+## 自定义快捷键
+
+编辑 → 键盘快捷键
+
+## 画画常用的快捷键
+
+<img src="/Users/yangdong/Library/CloudStorage/OneDrive-Personal/Media/Knowledge Base.media/01课-PS工具键盘分布.jpg" alt="01课-PS工具键盘分布" style="zoom: 33%;" />
+
+- 保存：cmd+s
+- 另存为：cmd+shift+s
+- 吸管：画笔模式下按住 alt
+- 放大：cmd++
+- 缩小：cmd+-
+- 剪切蒙版：在图层上右键 创建剪切蒙版
+- 透明度：键盘上的一排数字
+- 橡皮：E
+- 画笔：B
+- 画直线：按住 `shift`
+- 画斜线：按住 `shift` ，点两个点．
+- 画笔大小：`[` 和 `]` ．
+- 移动工具：`v` ．
+- 套搜工具：`L` ．套索和移动工具配合可以移动局部．
+- 抓手工具：`space` ．
+- 水平翻转画布：`cmd + F` （需要自己设置，这个原来是 `编辑 → 搜索`）．每画 0.5 - 1 小时就水平翻转一下，有助于建立对画面的理解．
+- 曲线：`cmd + M`
+- 色相 / 饱和度：`cmd + U`
+- 色彩平衡：`cmd + B`
+- 反选：`cmd + shift + I`
+- 取消选区： `cmd + D`
+- 填充：`shift + F5`

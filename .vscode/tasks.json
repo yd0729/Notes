@@ -1,0 +1,64 @@
+{
+  "windows": {
+    "options": {
+      "shell": {
+        "executable": "cmd.exe",
+        "args": [
+          "/C", // 必须要 cd 才行，不能直接用，我也不知道为啥
+          "cd \"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/\"",
+          "&&",
+          "vcvars64.bat", // x64，clang 默认是 x64 的
+          "&&",
+          "cd \"${workspaceFolder}\\.debug\"",
+          "&&"
+        ]
+      }
+    }
+  },
+  "tasks": [
+    {
+      "label": "clang++ 生成活动文件",
+      "type": "shell",
+      "command": "/usr/bin/clang++",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "-std=c++20",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/.debug/test"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "windows": {
+        "command": "clang++.exe"
+      }
+    },
+    {
+      "type": "shell",
+      "label": "cl.exe 生成活动文件",
+      "command": "cl.exe",
+      "args": [
+        "/std:c++20", // 要有这行，不然不能用 and or stringstream ...
+        "/Od", // 编译有点慢，可以放弃优化
+        "/Zi",
+        "/EHsc",
+        "/Fe:",
+        "${workspaceFolder}/.debug/${fileBasenameNoExtension}.exe",
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$msCompile"],
+      "group": "build"
+    }
+  ],
+  "version": "2.0.0"
+}
