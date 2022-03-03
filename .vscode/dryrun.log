@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/yangdong/Documents/Knowledge Base'
-make: Leaving directory `/Users/yangdong/Documents/Knowledge Base'
- 
-make: *** No targets specified and no makefile found.  Stop.
- 
