@@ -2,7 +2,9 @@
 
 ## 安装
 
-可以[安装 GPU 加速的 Tensorflow](https://developer.apple.com/metal/tensorflow-plugin/) 了，注意里面的小字，只有 Python 3.8 才能安装成功．环境没按照教程，用的是 miniconda ，不影响，加上 `SYSTEM_VERSION_COMPAT=0` 就行．但还是有点问题的，比如下面这个不加 device environment 就会报错．
+可以[安装 GPU 加速的 Tensorflow](https://developer.apple.com/metal/tensorflow-plugin/) 了，只有 Python 3.8 才能安装成功，安装后可以升级 Python ．
+
+但还是有问题：
 
 ```python
 with tf.device('/CPU:0'):  #  GPU 上没有这个操作，不知道为啥
