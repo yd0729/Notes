@@ -1,0 +1,5 @@
+# 42
+
+<img src="../../../.media/Screen Shot 2022-02-16 at 22.30.22.png" alt="Screen Shot 2022-02-16 at 22.30.22" style="zoom:50%;" />
+
+B. 比如 $f(x)=0$ ．
