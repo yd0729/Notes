@@ -1,0 +1,217 @@
+{
+  "rootTopicKey": "8f8f7d4e-27f7-4cd6-9511-df44f5839aba",
+  "editorRootTopicKey": "8f8f7d4e-27f7-4cd6-9511-df44f5839aba",
+  "focusKey": "b3fa961c-d797-4817-85b6-65c058233f74",
+  "extData": {},
+  "topics": [
+    {
+      "key": "b3fa961c-d797-4817-85b6-65c058233f74",
+      "parentKey": "108fc8d6-1bec-4ade-929d-2094e9621c6d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "性能指标"
+        }
+      ]
+    },
+    {
+      "key": "f601f497-d1e4-4068-b9a1-932b618de63a",
+      "parentKey": "8f8f7d4e-27f7-4cd6-9511-df44f5839aba",
+      "subKeys": [
+        "37981194-cc16-415a-8b6f-ae16f3617941",
+        "37bfb9df-e57c-45f3-828f-f91919361beb",
+        "905e0332-ae94-4f24-a4e1-6533027d5f10",
+        "4780f843-b682-4e45-8f57-6b1880ab563e"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "体系结构 & 参考模型"
+        }
+      ]
+    },
+    {
+      "key": "a18678d0-5ec4-475f-9bff-59875f17f4bb",
+      "parentKey": "108fc8d6-1bec-4ade-929d-2094e9621c6d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "标准化工作及相关组织（考纲已删除）"
+        }
+      ]
+    },
+    {
+      "key": "37981194-cc16-415a-8b6f-ae16f3617941",
+      "parentKey": "f601f497-d1e4-4068-b9a1-932b618de63a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "分层结构"
+        }
+      ]
+    },
+    {
+      "key": "108fc8d6-1bec-4ade-929d-2094e9621c6d",
+      "parentKey": "8f8f7d4e-27f7-4cd6-9511-df44f5839aba",
+      "subKeys": [
+        "8dab106f-a8a5-4f55-bee5-c40251a1de9e",
+        "b3fa961c-d797-4817-85b6-65c058233f74",
+        "a18678d0-5ec4-475f-9bff-59875f17f4bb"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "计算机网络概述"
+        }
+      ]
+    },
+    {
+      "key": "8dab106f-a8a5-4f55-bee5-c40251a1de9e",
+      "parentKey": "108fc8d6-1bec-4ade-929d-2094e9621c6d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "概念、组成、功能、分类"
+        }
+      ]
+    },
+    {
+      "key": "8f8f7d4e-27f7-4cd6-9511-df44f5839aba",
+      "parentKey": null,
+      "subKeys": [
+        "108fc8d6-1bec-4ade-929d-2094e9621c6d",
+        "f601f497-d1e4-4068-b9a1-932b618de63a"
+      ],
+      "collapse": false,
+      "style": "{\"contentStyle\":{\"fontSize\":20,\"lineHeight\":\"1\",\"background\":\"#4a4a4a\",\"borderRadius\":\"5px\"}}",
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "计算机网络体系结构"
+        }
+      ]
+    },
+    {
+      "key": "905e0332-ae94-4f24-a4e1-6533027d5f10",
+      "parentKey": "f601f497-d1e4-4068-b9a1-932b618de63a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ISO / OSI 模型"
+        }
+      ]
+    },
+    {
+      "key": "37bfb9df-e57c-45f3-828f-f91919361beb",
+      "parentKey": "f601f497-d1e4-4068-b9a1-932b618de63a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "协议、接口、服务"
+        }
+      ]
+    },
+    {
+      "key": "4780f843-b682-4e45-8f57-6b1880ab563e",
+      "parentKey": "f601f497-d1e4-4068-b9a1-932b618de63a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "TCP / IP 模型"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "theme3",
+      "randomColor": false,
+      "background": "#A9DEF9",
+      "highlightColor": "#50C9CE",
+      "marginH": 50,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5"
+      },
+      "linkStyle": {
+        "lineRadius": 5
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "background": "#FF99C8",
+          "color": "#fff",
+          "fontSize": "34px",
+          "borderRadius": "5px",
+          "padding": "16px 18px 16px 18px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "background": "#FCF6BD",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "#E4C1F9",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "14px",
+          "padding": "6px 10px 5px 10px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "2px",
+          "lineColor": "#43a9ff"
+        }
+      },
+      "normalTopic": {
+        "contentStyle": {
+          "background": "#E4FDE1",
+          "borderRadius": "5px",
+          "color": "rgb(103,103,103)",
+          "fontSize": "13px",
+          "padding": "3px 9px 4px",
+          "boxShadow": "1px 1px 1px #ccc"
+        },
+        "subLinkStyle": {
+          "lineType": "round",
+          "lineRadius": 5,
+          "lineWidth": "1px",
+          "lineColor": "#43a9ff"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}
