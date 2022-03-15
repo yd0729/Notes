@@ -1,13 +1,14 @@
 {
   "folders": [
     {
-      "path": "."
+      "path": "../"
     }
   ],
   "settings": {
     "commentTranslate.targetLanguage": "zh-CN",
     "commentTranslate.hover.enabled": false,
     "commentTranslate.source": "Bing",
-    "liveServer.settings.multiRootWorkspaceName": "Knowledge Base"
+    "liveServer.settings.multiRootWorkspaceName": "Knowledge Base",
+    "markdownExtended.disabledPlugins": "kbd"
   }
 }
