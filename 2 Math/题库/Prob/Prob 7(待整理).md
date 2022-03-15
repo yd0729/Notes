@@ -1,3 +1,3 @@
 # Prob 7
 
-![图 1](../../../.media/1c1105a821107fc96480856986ad5e98b65d894842d248b8f3ccf11ea154c49d.png)  
+![图 1](../../../.media/c39e12161a989577519f1c49ae9be78ce0cfe157f42e9ef8656d9d6be0a99c04.png)  
