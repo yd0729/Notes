@@ -9,6 +9,6 @@
     "commentTranslate.hover.enabled": false,
     "commentTranslate.source": "Bing",
     "liveServer.settings.multiRootWorkspaceName": "Knowledge Base",
-    "markdownExtended.disabledPlugins": "underline, kbd"
+    "markdownExtended.disabledPlugins": "kbd"
   }
 }
