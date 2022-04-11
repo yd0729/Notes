@@ -3,4 +3,3 @@
 ```shell
 sudo xattr -r -d com.apple.quarantine 文件名
 ```
-
