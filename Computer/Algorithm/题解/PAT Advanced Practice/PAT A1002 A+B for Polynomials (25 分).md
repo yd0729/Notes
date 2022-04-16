@@ -24,6 +24,47 @@ For each test case you should output the sum of $A$ and $B$ in one line, with th
 
 ## 题解
 
+### 题意
+
 计算多项式 $A+B$ 的和。
 
+### 思路
+
 多项式的次数的范围较小，可以使用哈希直接映射。输出时从后往前输出所有系数不为 0 的指数和系数。
+
+### 代码
+
+```cpp
+#include <cstdio>
+
+#define M 1005
+
+double poly[M];
+
+int main() {
+  double q;
+  int k, p, cnt = 0;
+
+  for (int i = 0; i < 2; ++i) {
+    scanf("%d", &k);
+    for (int j = 0; j < k; ++j) {
+      scanf("%d %lf", &p, &q);
+      poly[p] += q;
+    }
+  }
+
+  for (int i = 0; i < M; ++i) {
+    if (poly[i] != 0) {
+      ++cnt;
+    }
+  }
+
+  printf("%d", cnt);
+
+  if (cnt) {
+    for (int i = M - 1; i >= 0; --i) {
+      if (poly[i] != 0) printf(" %d %.1f", i, poly[i]);
+    }
+  }
+}
+```
