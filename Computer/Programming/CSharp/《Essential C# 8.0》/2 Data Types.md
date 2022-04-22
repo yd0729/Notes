@@ -8,7 +8,7 @@
 
 ### 2.1.1 整数类型
 
-![图 5](../../../../../.media/ed022d86cdb2b29878ddd3cc30cce381545fdfe5d8c65b93bd81fe946cca4851.png)
+![图 5](/.media/ed022d86cdb2b29878ddd3cc30cce381545fdfe5d8c65b93bd81fe946cca4851.png)
 
 C# 所有基元类型都有短名称和完整名称。完整名称对应 BCL（基类库）中的类型名称。该名称在所有语言中都相同，对程序集中的类型进行了唯一性标识。由于基元数据类型是其他类型的基础，所以 C# 为基元数据类型的完整名称提供了短名称 （或称为缩写）。其实从编译器的角度看，两种名称完全一样，最终都生成相同的代码。事实上，检查最终生成的 CIL 代码，根本看不出源代码具体使用的名称。
 
@@ -21,11 +21,11 @@ C/C++ 的 short 数据类型是 short int 的缩写。而 C# 的 short 是一种
 
 ### 2.1.2 浮点类型（float 和 double）
 
-![图 2](../../../../../.media/aa6ffdf4887d98f1a2910564d83029cd59d6f6f5e992cfd1e787c97658ce2d4d.png)
+![图 2](/.media/aa6ffdf4887d98f1a2910564d83029cd59d6f6f5e992cfd1e787c97658ce2d4d.png)
 
 ### 2.1.3 Decimal Type
 
-![图 4](../../../../../.media/281f23a84fdcc1361b9a83438042c177e33cd9fc00e6e9b99565d49fe88f62a0.png)
+![图 4](/.media/281f23a84fdcc1361b9a83438042c177e33cd9fc00e6e9b99565d49fe88f62a0.png)
 
 decimal 被表示成 $±N×10^k$ ；其中 N 是 96 位的正整数，而 $-28<=k<=0$。
 
@@ -79,7 +79,7 @@ System.Console.WriteLine($"0X{42:X}");
 0X2A
 ```
 
-其他的格式化：<https://docs.microsoft.com/en-us/dotnet/standard/base-types/formatting-types> ．
+[其他的格式化](https://docs.microsoft.com/en-us/dotnet/standard/base-types/formatting-types>)．
 
 设计规范：
 
@@ -99,7 +99,7 @@ Unicode 是一个国际性标准，用来表示大多数语言中的字符。它
 
 不是所有 Unicode 字符都能用一个 16 位 char 表示。刚开始提出 Unicode 的概念时，它的设计者以为 16 位已经足够。但随着支持的语言越来越多，才发现当初的假定是错误的。结果是，一些 Unicode 字符要由一对称为“代理项”的 char 构成，总共 32 位。
 
-![图 1](../../../../../.media/33c3d778d165e49b8042c52cfe91bb2058165dd20d67912c52cc72aa7848b4d3.jpg)
+![图 1](/.media/33c3d778d165e49b8042c52cfe91bb2058165dd20d67912c52cc72aa7848b4d3.jpg)
 
 可用 Unicode 编码表示任何字符。为此，请为 Unicode 值附加 \u 前缀。可用 16 进制记数法表示 Unicode 字符。
 
@@ -135,8 +135,8 @@ C# 允许在字符串前使用 @ 符号，指明转义序列不被处理。结�
 
 #### string 的静态方法
 
-![图 1](../../../../../.media/63fc6399fb43a7fb20ee314b10eb31425b7d47e4bc1b311472bc428da6f08c21.jpg)  
-![图 1](../../../../../.media/35f54da857c2d24002649cbdc678b58f6302be6cfead3c1fbd5bd046c8ac53c1.jpg)
+![图 1](/.media/63fc6399fb43a7fb20ee314b10eb31425b7d47e4bc1b311472bc428da6f08c21.jpg)  
+![图 1](/.media/35f54da857c2d24002649cbdc678b58f6302be6cfead3c1fbd5bd046c8ac53c1.jpg)
 
 要在插值或格式化的字符串中添加实际的左右大括号，可连写两个大括号来表示。
 
@@ -146,8 +146,8 @@ C# 允许在字符串前使用 @ 符号，指明转义序列不被处理。结�
 
 #### string 的实例方法
 
-![图 1](../../../../../.media/23c42981b4542dbe280e42929863904cb642ddfccbb4c0e8e54d34629280c667.jpg)  
-![图 2](../../../../../.media/5f364d549215844bbe458a458fad66af44f3121b96594f72e8c00f2769b90938.jpg)
+![图 1](/.media/23c42981b4542dbe280e42929863904cb642ddfccbb4c0e8e54d34629280c667.jpg)  
+![图 2](/.media/5f364d549215844bbe458a458fad66af44f3121b96594f72e8c00f2769b90938.jpg)
 
 #### 换行符
 
