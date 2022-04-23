@@ -106,3 +106,46 @@ public class Program
 有点误导，实际上不是声明了 Tuple ，相反是在 deconstruct 一个 tuple ．只有 `var` 可以写在最外面（第 4 种写法）．
 
 ![图 10](../../../../.media/668440dc0be86f527b1d38830014e9f1c31fa745cad77631863bce2d0e966ad4.png)  
+
+9 使用下划线．
+
+5，6，7，8，10 是真正声明 Tuple 的写法．
+
+5，6，10 中元组中的元素是有名字的，7，8 是没有名字的．
+
+10 的写法是在 C# 7.1 以后才行．
+
+Guidlines
+
+变量使用 camelCasing ，而元组使用 PascalCasing 比较好．
+
+以下这些可忽略，在编程时可以不使用．
+
+Tuple 使用 System.ValueTuple<...> 泛型来实现，包括以上的例子的右侧和从 5 开始的左侧（为啥 9 也是呢），只有比较和相等方法， CLI 代码中实际上是没有元组中项的名字的，而 ItemX 总是可用的，即使对于项有名字的元组也是如此（但是 IntelliSense 不会显示）．
+
+在 Tuple 声明的余下作用域中，这是可行的，但是如果 Tuple 作为 API 出现在函数的参数中，就必须要知道项的名字了．编译器会以属性的形式将项目名称添加到成员的元数据中．
+
+下面这个函数的返回值是一个元组，
+
+```csharp
+public (string First, string Second) ParseNames(string fullName)
+```
+
+编译器生成的等价的 CLI 代码为：
+
+```csharp
+[return: System.Runtime.CompilerServices.TupleElementNames(new string[] { "First", "Second" })]
+public System.ValueTuple<string, string> ParseNames(string fullName)
+```
+
+C# 7.0 在直接使用 `System.ValueTuple` 声明时不允许项有自定义名称．
+
+当项的个数超过 7 个时， Tuple 会以一种“递归”的方式实现：
+
+```csharp
+System.ValueTuple<T1, T2, T3, T4, T5, T6, T7, TRest>
+```
+
+所以 `System.ValueTuple<T1>` 是存在的（否则就无法支持 8 个项的元组），但必须直接使用才能声明一个只有一个项的元组，因为 C# 规定 Tuple 最少要有 2 个项．
+
+### Arrays
