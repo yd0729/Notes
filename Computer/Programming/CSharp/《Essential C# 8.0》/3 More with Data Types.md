@@ -11,7 +11,7 @@ Value types require a memory copy.
 
 ### Reference Types
 
-![图 8](../../../../.media/a097fcc8824b118c458e45d13c6ce70591dd8302380561703eeb2adf6aaa9847.png)  
+![图 8](/.media/a097fcc8824b118c458e45d13c6ce70591dd8302380561703eeb2adf6aaa9847.png)
 
 解引用（dereferencing）: 引用类型通过引用访问数据．
 
@@ -101,11 +101,11 @@ public class Program
 
 ### Tuples
 
-![图 9](../../../../.media/c1e63060e18c93cc9909e13fc3acbb9279a5e330a5e82ab6dab172615bc0883b.jpg)  
+![图 9](/.media/c1e63060e18c93cc9909e13fc3acbb9279a5e330a5e82ab6dab172615bc0883b.jpg)
 
 有点误导，实际上不是声明了 Tuple ，相反是在 deconstruct 一个 tuple ．只有 `var` 可以写在最外面（第 4 种写法）．
 
-![图 10](../../../../.media/668440dc0be86f527b1d38830014e9f1c31fa745cad77631863bce2d0e966ad4.png)  
+![图 10](/.media/668440dc0be86f527b1d38830014e9f1c31fa745cad77631863bce2d0e966ad4.png)
 
 9 使用下划线．
 
