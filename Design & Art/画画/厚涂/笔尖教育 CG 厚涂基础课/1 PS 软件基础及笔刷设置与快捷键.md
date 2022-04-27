@@ -6,7 +6,7 @@
 
 ## 画画常用的快捷键
 
-<img src="../../../../.media/01课-PS工具键盘分布.jpg" alt="01课-PS工具键盘分布" style="zoom: 33%;" />
+<img src="/.media/01课-PS工具键盘分布.jpg" alt="01课-PS工具键盘分布" style="zoom: 33%;" />
 
 - 保存：cmd+s
 - 另存为：cmd+shift+s

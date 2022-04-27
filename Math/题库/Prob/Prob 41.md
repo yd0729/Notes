@@ -1,8 +1,8 @@
 # 41
 
-<img src="../../../.media/Screen Shot 2022-02-16 at 16.12.33.png" alt="Screen Shot 2022-02-16 at 16.12.33" style="zoom:50%;" />
+<img src="/.media/Screen Shot 2022-02-16 at 16.12.33.png" alt="Screen Shot 2022-02-16 at 16.12.33" style="zoom:50%;" />
 
-<img src="../../../.media/Screen Shot 2022-02-16 at 16.13.17.png" alt="Screen Shot 2022-02-16 at 16.13.17" style="zoom:50%;" />
+<img src="/.media/Screen Shot 2022-02-16 at 16.13.17.png" alt="Screen Shot 2022-02-16 at 16.13.17" style="zoom:50%;" />
 
 二阶可导的意思是二阶导函数存在，但不知道某一点的极限是否存在，更不知道是否连续．
 
