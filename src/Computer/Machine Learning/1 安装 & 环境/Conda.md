@@ -12,9 +12,9 @@
 
 ### [配置阿里源](https://developer.aliyun.com/mirror/anaconda)
 
-1. 修改用户目录下的 .condarc 文件。
+1. 修改用户目录下的 .condarc 文件．
 
-    Windows 需要先执行 `conda config --set show_channel_urls yes` 生成该文件后再修改。
+    Windows 需要先执行 `conda config --set show_channel_urls yes` 生成该文件后再修改．
 
         channels:
             - defaults
@@ -31,7 +31,7 @@
             pytorch: http://mirrors.aliyun.com/anaconda/cloud
             simpleitk: http://mirrors.aliyun.com/anaconda/cloud
 
-2. 运行 `conda clean -i` 清除索引缓存。
+2. 运行 `conda clean -i` 清除索引缓存．
 
 ## 使用
 

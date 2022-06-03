@@ -44,7 +44,7 @@ or basic logic errors（不可到达的分支）.
 
 ## Types for Tooling
 
-静态类型也可以在编写代码时发挥作用。
+静态类型也可以在编写代码时发挥作用．
 
 <img src="/Users/yangdong/Library/CloudStorage/OneDrive-Personal/Media/Knowledge Base.media/截屏2022-01-20 16.51.05.png" alt="截屏2022-01-20 16.51.05.png" style="zoom:50%;" />
 
@@ -59,7 +59,7 @@ npm install -g typescript
 > This installs the TypeScript Compiler `tsc` globally.
 > You can use `npx` or similar tools if you'd prefer to run `tsc` from a local `node_modules` package instead.
 
-**反正我用 brew 。**
+**反正我用 brew ．**
 
 Now let's move to an empty folder and try writing our first TypeScript program: `hello.ts`:
 
@@ -78,9 +78,9 @@ If we look in our current directory, we'll see a `hello.js` file next to `hello.
 
 ## Emitting with Errors
 
-就算 tsc 输出了错误，它还是会将 TS 转换成 JS 。This is based on one of TypeScript's core values: much of the time, _you_ will know better than TypeScript. 所以在将现有的 JS 代码迁移到 TS 的过程中，即使迁移工作没有完全完成，代码仍然可运行，虽然 tsc 会输出错误。
+就算 tsc 输出了错误，它还是会将 TS 转换成 JS ．This is based on one of TypeScript's core values: much of the time, _you_ will know better than TypeScript. 所以在将现有的 JS 代码迁移到 TS 的过程中，即使迁移工作没有完全完成，代码仍然可运行，虽然 tsc 会输出错误．
 
-但如果你希望 tsc 更严格一点，也可以使用编译选项 [`noEmitOnError`](/tsconfig#noEmitOnError) ，这样如果 tsc 检查到了错误，就不会更新 JS 。Try changing your `hello.ts` file and running `tsc` with that flag:
+但如果你希望 tsc 更严格一点，也可以使用编译选项 [`noEmitOnError`](/tsconfig#noEmitOnError) ，这样如果 tsc 检查到了错误，就不会更新 JS ．Try changing your `hello.ts` file and running `tsc` with that flag:
 
 ```sh
 tsc --noEmitOnError hello.ts
@@ -96,7 +96,7 @@ function greet(person: string, date: Date) {
 }
 ```
 
-添加了类型注释（type annotation）之后，TS 可以检查出更多的错误。
+添加了类型注释（type annotation）之后，TS 可以检查出更多的错误．
 
 <img src="/Users/yangdong/Library/CloudStorage/OneDrive-Personal/Media/Knowledge Base.media/截屏2022-01-20 16.51.46.png" alt="截屏2022-01-20 16.51.46.png" style="zoom:50%;" />
 
@@ -111,7 +111,7 @@ function greet(person: string, date: Date) {
 greet("Maddison", new Date());
 ```
 
-类型注释并不是总需要写的，TS 有时可以自己推断出来。如果 TS 能推断出来，那最好就不要写。
+类型注释并不是总需要写的，TS 有时可以自己推断出来．如果 TS 能推断出来，那最好就不要写．
 
 <img src="/Users/yangdong/Library/CloudStorage/OneDrive-Personal/Media/Knowledge Base.media/截屏2022-01-20 16.52.17.png" alt="截屏2022-01-20 16.52.17.png" style="zoom:50%;" />
 
@@ -171,7 +171,7 @@ function greet(person, date) {
 greet("Maddison", new Date());
 ```
 
-> 虽然默认的目标是 ES3 ，但是现代浏览器都支持 ES2015 了，所以如果兼容老浏览器不是很重要的话，把目标改到 ES2015 也没问题。
+> 虽然默认的目标是 ES3 ，但是现代浏览器都支持 ES2015 了，所以如果兼容老浏览器不是很重要的话，把目标改到 ES2015 也没问题．
 
 ## Strictness
 
@@ -182,17 +182,17 @@ Much like how `tsc` emits in the face of errors, these defaults are put in place
 
 If you're migrating existing JavaScript, that might be a desirable first step.
 
-默认设置比较宽松，也不会检查潜在的 `null`/`undefined` ，这是为了让你能够使用 TS 开始工作，比如你正在迁移现有的 JS 代码。
+默认设置比较宽松，也不会检查潜在的 `null`/`undefined` ，这是为了让你能够使用 TS 开始工作，比如你正在迁移现有的 JS 代码．
 
 In contrast, a lot of users prefer to have TypeScript validate as much as it can straight away, and that's why the language provides strictness settings as well.
 These strictness settings turn static type-checking from a switch (either your code is checked or not) into something closer to a dial.
 The further you turn this dial up, the more TypeScript will check for you.
 
-这些严格性设置将静态类型检查从开关（检查代码或者不检查代码）变成刻度。刻度调得越高，TS 就检查越多。
+这些严格性设置将静态类型检查从开关（检查代码或者不检查代码）变成刻度．刻度调得越高，TS 就检查越多．
 
 This can require a little extra work, but generally speaking it pays for itself in the long run, and enables more thorough checks and more accurate tooling.
 
-这可能需要一些额外的工作，但一般来说，从长远来看，这是值得的，并允许更彻底的检查和更准确的工具。
+这可能需要一些额外的工作，但一般来说，从长远来看，这是值得的，并允许更彻底的检查和更准确的工具．
 
 When possible, a new codebase should always turn these strictness checks on.
 

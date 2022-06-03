@@ -34,7 +34,7 @@ git push
 
 ## 将代码提交到源仓库的 pull request
 
-在自己的分支修改好代码后，add，commit，push。
+在自己的分支修改好代码后，add，commit，push．
 
 ```bash
 git add .
@@ -42,7 +42,7 @@ git commit -m "合并修改"
 git push
 ```
 
-这时候来到自己 `github` 代码库上方有提示你刚提交了代码，有`pull request`的提示。
+这时候来到自己 `github` 代码库上方有提示你刚提交了代码，有`pull request`的提示．
 
 进去之后看到一个类似这样的界面：
 

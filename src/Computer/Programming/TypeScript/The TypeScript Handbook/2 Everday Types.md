@@ -228,11 +228,11 @@ function getFirstThree(x: number[] | string) {
 
 > **It might be confusing that a _union_ of types appears to have the _intersection_ of those types' properties.** > **This is not an accident - the name _union_ comes from type theory.** > **The _union_ `number | string` is composed by taking the union _of the values_ from each type.** > **Notice that given two sets with corresponding facts about each set, only the _intersection_ of those facts applies to the _union_ of the sets themselves.** > **For example, if we had a room of tall people wearing hats, and another room of Spanish speakers wearing hats, after combining those rooms, the only thing we know about _every_ person is that they must be wearing a hat.**
 >
-> **类型 _union_ 的属性是这些属性的交集，这可能会令人困惑（因为 union 是并集的意思）。**
+> **类型 _union_ 的属性是这些属性的交集，这可能会令人困惑（因为 union 是并集的意思）．**
 >
-> **这不是一个错误，union 来自类型理论。这里的并集指的是值。请注意，给定两个集合以及每个集合的相应事实，只有这些事实的交集适用于集合本身的结合。**
+> **这不是一个错误，union 来自类型理论．这里的并集指的是值．请注意，给定两个集合以及每个集合的相应事实，只有这些事实的交集适用于集合本身的结合．**
 >
-> **例如，如果我们有一个戴着帽子的高个子房间，另一个戴着帽子的西班牙语使用者房间，那么在合并这些房间后，我们唯一知道的就是他们一定是戴着帽子。**
+> **例如，如果我们有一个戴着帽子的高个子房间，另一个戴着帽子的西班牙语使用者房间，那么在合并这些房间后，我们唯一知道的就是他们一定是戴着帽子．**
 
 ## Type Aliases
 
@@ -425,7 +425,7 @@ const a = expr as any as T;
 
 **In addition to the general types `string` and `number`, we can refer to _specific_ strings and numbers in type positions.**
 
-**大概是说可以把特定的字符串或数字当成一个类型。**
+**大概是说可以把特定的字符串或数字当成一个类型．**
 
 One way to think about this is to consider how JavaScript comes with different ways to declare a variable. **Both `var` and `let` allow for changing what is held inside the variable, and `const` does not. This is reflected in how TypeScript creates types for literals.**
 

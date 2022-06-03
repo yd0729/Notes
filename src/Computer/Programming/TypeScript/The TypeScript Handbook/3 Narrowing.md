@@ -18,7 +18,7 @@ In many editors we can observe these types as they change, and we'll even do so 
 
 <img src="/Users/yangdong/Library/CloudStorage/OneDrive-Personal/Media/Knowledge Base.media/截屏2022-01-23 17.46.57.png" alt="截屏2022-01-23 17.46.57.png" style="zoom:50%;" />
 
-There are a couple of different constructs TypeScript understands for narrowing. TypeScript 能够对几种不同的结构进行 narrowing。
+There are a couple of different constructs TypeScript understands for narrowing. TypeScript 能够对几种不同的结构进行 narrowing．
 
 ## `typeof` type guards
 
@@ -36,7 +36,7 @@ TypeScript expects this to return a certain set of strings:
 
 Like we saw with `padLeft`, this operator comes up pretty often in a number of JavaScript libraries, and TypeScript can understand it to narrow types in different branches.
 
-In TypeScript, checking against the value returned by `typeof` is a type guard. **在 TypeScript 中，typeof 返回的值是一个 type guard。Because TypeScript encodes how `typeof` operates on different values, it knows about some of its quirks in JavaScript. For example, notice that in the list above, `typeof` doesn't return the string `null`.**
+In TypeScript, checking against the value returned by `typeof` is a type guard. **在 TypeScript 中，typeof 返回的值是一个 type guard．Because TypeScript encodes how `typeof` operates on different values, it knows about some of its quirks in JavaScript. For example, notice that in the list above, `typeof` doesn't return the string `null`.**
 
 <img src="/Users/yangdong/Library/CloudStorage/OneDrive-Personal/Media/Knowledge Base.media/截屏2022-01-23 17.52.56.png" alt="截屏2022-01-23 17.52.56.png" style="zoom:50%;" />
 
@@ -105,7 +105,7 @@ This at least prevents us from dreaded errors when we run our code like:
 TypeError: null is not iterable
 ```
 
-**Keep in mind though that truthiness checking on primitives can often be error prone. 但请记住，检查原语的真实性通常容易出错。**
+**Keep in mind though that truthiness checking on primitives can often be error prone. 但请记住，检查原语的真实性通常容易出错．**
 As an example, consider a different attempt at writing `printAll`
 
 ```ts twoslash {class: "do-not-do-this"}
@@ -155,7 +155,7 @@ For example:
 When we checked that `x` and `y` are both equal in the above example, TypeScript knew their types also had to be equal.
 Since `string` is the only common type that both `x` and `y` could take on, TypeScript knows that `x` and `y` must be a `string` in the first branch.
 
-**Checking against specific literal values (as opposed to variables) works also. 检查特定的字面值（而不是变量）也可以。**
+**Checking against specific literal values (as opposed to variables) works also. 检查特定的字面值（而不是变量）也可以．**
 **In our section about truthiness narrowing, we wrote a `printAll` function which was error-prone because it accidentally didn't handle empty strings properly.**
 **Instead we could have done a specific check to block out `null`s, and TypeScript still correctly removes `null` from the type of `strs`.**
 
