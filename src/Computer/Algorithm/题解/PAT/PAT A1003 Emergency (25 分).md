@@ -29,7 +29,7 @@ For each test case, print in one line two numbers: the number of different short
 
 ### 题意
 
-计算从起点到终点的所有最短路径的个数和这些路径中最大的点权之和。
+计算从起点到终点的所有最短路径的个数和这些路径中最大的点权之和．
 
 ### 代码
 
@@ -117,7 +117,7 @@ int main() {
 
 #### Bellman-Ford
 
-如果使用 Bellman-Ford 算法，因为会重复访问节点，所以不能只用一个 num 数组记录最短路径的个数，还要记录节点的前驱。下面是一种用邻接表的 Bellman-Ford ，在这道题表现还可以（如果不用邻接表的话还是挺慢的）。
+如果使用 Bellman-Ford 算法，因为会重复访问节点，所以不能只用一个 num 数组记录最短路径的个数，还要记录节点的前驱．下面是一种用邻接表的 Bellman-Ford ，在这道题表现还可以（如果不用邻接表的话还是挺慢的）．
 
 ```cpp
 #include <cstdio>

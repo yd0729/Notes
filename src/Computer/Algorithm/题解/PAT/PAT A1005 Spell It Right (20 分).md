@@ -22,7 +22,7 @@ For each test case, output in one line the digits of the sum in English words. T
 
 ### 题意
 
-给一个非负整数 $N$ ，计算 $N$ 的每一位相加的和，然后输出和的每一位的英文读音。
+给一个非负整数 $N$ ，计算 $N$ 的每一位相加的和，然后输出和的每一位的英文读音．
 
 ### 代码
 

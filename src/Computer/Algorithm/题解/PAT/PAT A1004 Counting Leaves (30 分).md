@@ -31,11 +31,11 @@ The sample case represents a tree with only 2 nodes, where `01` is the root and 
 
 ### 题意
 
-给出一棵树，计算每一层的叶子节点的个数。
+给出一棵树，计算每一层的叶子节点的个数．
 
 ### 思路
 
-用 dfs ，也可以用树的层序遍历，但 dfs 比较好写。对于这种给出结点 id 的树，用静态结点比较方便。
+用 dfs ，也可以用树的层序遍历，但 dfs 比较好写．对于这种给出结点 id 的树，用静态结点比较方便．
 
 ### 代码
 
