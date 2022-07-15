@@ -1,0 +1,1 @@
+# [使用 PowerShell Core 管理 Linux 上的 SQL Server](https://docs.microsoft.com/zh-cn/sql/linux/sql-server-linux-manage-powershell-core?view=sql-server-linux-ver16)
